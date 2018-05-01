@@ -1,0 +1,33 @@
+{
+  "name": "gg-hosting",
+  "version": "1.0.0",
+  "description": "This repo contains the GigaGamma hosting client and server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GigaGamma/hosting.git"
+  },
+  "author": "Auguste Rame and the GigaGamma Hosting Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GigaGamma/hosting/issues"
+  },
+  "homepage": "https://github.com/GigaGamma/hosting#readme",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "chalk": "^2.4.1",
+    "gg-secure-server": "^1.0.0",
+    "mocha": "^5.1.1",
+    "open-ums": "^1.0.0",
+    "strip-ansi": "^4.0.0"
+  },
+  "husky": {
+	  "pre-commit": "npm test"
+  },
+  "devDependencies": {
+    "husky": "^1.0.0-rc.2"
+  }
+}
