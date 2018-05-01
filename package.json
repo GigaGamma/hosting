@@ -25,7 +25,7 @@
     "strip-ansi": "^4.0.0"
   },
   "husky": {
-	  "pre-commit": "npm test"
+    "pre-commit": "npm test"
   },
   "devDependencies": {
     "husky": "^1.0.0-rc.2"
